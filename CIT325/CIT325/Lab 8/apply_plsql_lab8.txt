@@ -1,0 +1,167 @@
+
+Package created.
+
+
+Package body created.
+
+    contact_package.contact_insert
+    *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 22, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 22, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 42, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 42, column 5:
+PL/SQL: Statement ignored 
+
+
+   INSERT INTO system_user
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (STUDENT.FK_SYSTEM_USER_3) violated - parent
+key not found 
+
+
+        INSERT INTO system_user
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (STUDENT.FK_SYSTEM_USER_3) violated - parent
+key not found 
+
+
+        VALUES
+        *
+ERROR at line 13:
+ORA-00947: not enough values 
+
+
+
+no rows selected
+
+    contact_package.contact_insert
+    *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 22, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 22, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 42, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 42, column 5:
+PL/SQL: Statement ignored 
+
+
+
+no rows selected
+
+ IF contact_package.contact_insert
+    *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored 
+
+
+ IF contact_package.contact_insert
+    *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored 
+
+
+	IF contact_package.contact_insert
+	   *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored 
+
+
+
+no rows selected
+
+        , 'DBA'
+          *
+ERROR at line 17:
+ORA-01722: invalid number 
+
+
+        , 'DBA'
+          *
+ERROR at line 17:
+ORA-01722: invalid number 
+
+
+        VALUES
+        *
+ERROR at line 13:
+ORA-00947: not enough values 
+
+
+
+no rows selected
+
+    contact_package.contact_insert
+    *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 22, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 22, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 42, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 42, column 5:
+PL/SQL: Statement ignored 
+
+
+
+no rows selected
+
+ IF contact_package.contact_insert
+    *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored 
+
+
+ IF contact_package.contact_insert
+    *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored 
+
+
+	IF contact_package.contact_insert
+	   *
+ERROR at line 2:
+ORA-06550: line 2, column 5:
+PLS-00306: wrong number or types of arguments in call to 'CONTACT_INSERT'
+ORA-06550: line 2, column 2:
+PL/SQL: Statement ignored 
+
+
+
+no rows selected
+

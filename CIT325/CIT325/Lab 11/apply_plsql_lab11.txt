@@ -1,0 +1,114 @@
+ADD text_file_name varchar2(30)
+    *
+ERROR at line 2:
+ORA-01430: column being added already exists in table 
+
+
+DROP TABLE logger
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP SEQUENCE logger_s1
+              *
+ERROR at line 1:
+ORA-02289: sequence does not exist 
+
+
+
+Table created.
+
+
+Sequence created.
+
+
+PL/SQL procedure successfully completed.
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+
+1 row selected.
+
+
+Warning: Package created with compilation errors.
+
+ERROR:
+ORA-24372: invalid object for describe 
+
+
+    , pv_new_item_created_by        => i.item_created_by
+                                         *
+ERROR at line 18:
+ORA-06550: line 18, column 42:
+PLS-00302: component 'ITEM_CREATED_BY' must be declared
+ORA-06550: line 9, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 46, column 42:
+PLS-00302: component 'ITEM_CREATED_BY' must be declared
+ORA-06550: line 37, column 5:
+PL/SQL: Statement ignored
+ORA-06550: line 61, column 42:
+PLS-00302: component 'ITEM_CREATED_BY' must be declared
+ORA-06550: line 52, column 5:
+PL/SQL: Statement ignored 
+
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+
+1 row selected.
+
+
+Warning: Trigger created with compilation errors.
+
+
+no rows selected
+
+
+no rows selected
+
+
+no rows selected
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+
+1 row selected.
+
+
+no rows selected
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+
+1 row selected.
+
+
+no rows selected
+
+
+         Old                        New                                         
+Logger  Item                       Item                                         
+  ID #  ID # Old Item Title        ID # New Item Title                          
+------ ----- -------------------- ----- ------------------------------          
+     1  1014 Brave Heart           1014 Brave Heart                             
+
+1 row selected.
+
